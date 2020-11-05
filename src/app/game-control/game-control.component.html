@@ -1,0 +1,4 @@
+<div class="row">
+    <button type="button" class="btn btn-primary" (click)="onStartGame()" [disabled]="isGameStarted">Start game</button>
+    <button type="button" class="btn btn btn-warning" (click)="onPauseGame()" [disabled]="!isGameStarted">Pause</button>
+</div>
